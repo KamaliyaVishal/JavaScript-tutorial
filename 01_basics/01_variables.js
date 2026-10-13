@@ -2,6 +2,7 @@ const accountBalance = 1000;
 let accountHolder = "John Doe";
 var accountType = "Savings";
 additionalInfo = "This is a basic account.";
+let isActive;
 
 
 console.log("Account Holder:", accountHolder);
@@ -14,6 +15,9 @@ console.log("Account Type:", accountType);
 console.log(`Don't use unspecified variables in modern JavaScript, use let or const instead. 
     because unspecified variables are global scoped and can lead to unexpected behavior.`);
 console.log("Additional Info:", additionalInfo);
+
+console.log(`Unspecified variablres are unefined by default, so you need to assign a value to them before using them.`);
+console.log("Is Active:", isActive);
 
 console.log("\n--- Reassigning Variables ---\n");
 
@@ -29,5 +33,5 @@ accountType = "Current";
 console.log("Account Type (after reassignment):", accountType);
 
 console.log("\n--- Displaying Account Information in Table Format ---\n");
-console.table([accountHolder, accountBalance, accountType, additionalInfo]);
+console.table([accountHolder, accountBalance, accountType, additionalInfo, isActive]);
 
