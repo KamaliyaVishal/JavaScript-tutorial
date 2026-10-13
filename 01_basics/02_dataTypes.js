@@ -1,4 +1,5 @@
-/** Data Types in JavaScript 
+/** 
+ * Data Types in JavaScript 
  * In JavaScript, data types are divided into two main categories: Primitive values and Objects (Reference types).
 */
 
