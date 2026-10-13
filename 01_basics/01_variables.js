@@ -1,3 +1,8 @@
+/**
+ * This code demonstrates the use of variables in JavaScript, including the differences between var, let, and const. 
+ * It also shows how to declare variables, reassign them, and display their values in a table format.
+ */
+
 const accountBalance = 1000;
 let accountHolder = "John Doe";
 var accountType = "Savings";
