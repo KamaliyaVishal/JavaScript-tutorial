@@ -18,6 +18,7 @@
  * ================================================================
  */
 
+// Strict mode declaration for better error handling and to avoid accidental globals.
 "use strict";
 
 const LINE = "=".repeat(84);
